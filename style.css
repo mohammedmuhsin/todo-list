@@ -76,4 +76,27 @@ body{
     font-weight: bolder;
 }
 
-/* rgb(134, 176, 133); */
+@media (max-width:600px){
+    .container{
+        max-width: 100%;
+        border-radius: 1;
+        padding: 25px;
+    }
+
+    .todo-input-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .name-input,
+    .due-date,
+    .add-todo-button,
+    .delete-todo-button{
+        width: 100%;
+    }
+    .todo{
+        margin-left: 0;
+    }
+    
+}
+
+
